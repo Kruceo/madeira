@@ -4,9 +4,9 @@
   "description": "Simple logger to print and save a logfile with pretty and organized lines.",
   "main": "index,mjs",
   "type": "module",
-  "exports":{
-    "import":"./build/bundle.es.js",
-    "require":"./build/bundle.cjs.js"
+  "exports": {
+    "import": "./build/bundle.es.js",
+    "require": "./build/bundle.cjs.js"
   },
   "keywords": [
     "logger",

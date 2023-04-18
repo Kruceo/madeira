@@ -38,10 +38,3 @@ class Logger {
         }
     }
 }
-
-const logger = new Logger('./logs')
-
-logger.error('rafa')
-logger.warn('logger terminated')
-logger.info('somebody')
-logger.done('ultra book')
