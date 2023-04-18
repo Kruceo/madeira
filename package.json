@@ -1,8 +1,13 @@
 {
   "name": "madeira",
-  "version": "0.0.2",
-  "description": "Simple logger",
-  "main": "index.mjs",
+  "version": "0.0.3",
+  "description": "Simple logger to print and save a logfile with pretty and organized lines.",
+  "main": "index,mjs",
+  "type": "module",
+  "exports":{
+    "import":"./build/bundle.es.js",
+    "require":"./build/bundle.cjs.js"
+  },
   "keywords": [
     "logger",
     "console",
