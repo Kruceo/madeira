@@ -2,12 +2,12 @@ import fs from 'fs'
 import { coloral } from 'coloraljs'
 import path from 'path'
 
-class Logger {
+export class Logger {
     /**
      * Create a logger object to print and save log files.
      * @param {string} local - The folder to save log files.
      * @param {{
-     *  format:string
+     * format:string
      * }} options - extra options.
      */
     constructor(local,options) {

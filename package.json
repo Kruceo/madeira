@@ -1,6 +1,6 @@
 {
   "name": "madeira",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Simple logger to print and save a logfile with pretty and organized lines.",
   "main": "index,mjs",
   "type": "module",
